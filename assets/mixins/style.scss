@@ -1,0 +1,166 @@
+@import '../abstracts/common';
+@import '../abstracts/varaiables';
+@import '../mixins/breakpoints';
+@import '../includes/footer';
+@import  '../includes/header';
+
+//Start of the Carousel section
+.btn2{
+    background-color: $btns !important;
+}
+.slide{
+    background: url('/public/images/slide/slide-1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;  
+}
+.slide1{
+    background: url('/public/images/slide/slide-2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;  
+}
+.slide2{
+    background: url('/public/images/slide/slide-3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;  
+}
+.container{
+    @include media-md{
+        padding: 0 80px !important;
+    }
+}
+.dot{
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0px 3px;
+    border: 2px solid $dotboorder !important;
+    border-radius: 50% !important;
+    background-color: $dotbg !important;
+}
+//End of the Carousel section
+
+//Start of the  Voluptatem  section
+.happyclientsicon{
+    color:  $iconcolor;
+}
+.Voluptatemicon{
+    color:  $iconcolor;
+}
+//End  of the dignissimos Section
+.clients{
+    background-color:   $clients;
+}
+.clientimg{
+    -webkit-filter: grayscale(100%) !important; 
+    filter: grayscale(100%) !important;
+}
+//start  of the Services Section
+.services h2{
+    color:  $heading;
+}
+.serviceicon{
+    color:  $iconcolor;
+}
+//End  of the Services Section
+
+//start  of the whylorem Section
+.whyloremtext{
+    color:  $heading;
+}
+.whyloremnumber{
+    color:  $whyloremnumber;
+}
+//start  of the whylorem Section
+
+//start  of the Portfolio Section
+.Portfoliotext {
+    color:  $heading;
+}
+.all:visited {
+    background: $allvisited !important;
+  }
+.allone:hover{
+    background: $allonehover !important;
+    color: $allonehovercolor !important;
+}
+//End  of the Portfolio Section
+
+//Start  of the Team Section
+.teamtext{
+    color:  $heading;
+}
+.pricingtext{
+    color:  $heading;
+}
+//End  of the Team Section
+
+//Start  of the pricing Section
+.pricingtext{
+    color:  $heading;
+}
+.pricingnumber{
+    color: $pricingnumber !important;
+} 
+.pricieone {
+    background-color: $pricingone;
+}
+.pricietwo {
+    background-color: $pricingtwo;
+}
+.priciethree{
+    background-color: $pricingthree;
+}
+.btn3{
+    background-color: $btns  !important;
+}
+.btn4{
+    background-color: $btns  !important;
+}
+.btn5{
+    color: #5fa027 !important;
+}
+.pricing-details span{
+    position: relative;
+}
+.pricing-details span::before{
+    position: absolute;
+    content: '$';
+    font-size: 20px; 
+    left: -13px;
+    top: 2px;
+}
+.pricing-details span::after{
+    content: ' / month';
+    color: $pricing-detailspanafter !important;
+    font-size: 17px; 
+    right: -33px;
+    bottom: 17px;
+}
+//End  of the pricing Section
+
+//Start of the Asked Question Section
+.asked{
+    background-color: $askedbg;
+}
+.askedtext{
+    color: $heading;
+}
+.askicon{
+  color: $iconcolor;
+}
+//End of the Asked Question Section
+
+//Start  of the Contact Section
+.contacttext{
+    color: $heading;
+}
+.contacticon{
+    color: $iconcolor;
+}
+.btn6{
+    background-color: $btns  !important;
+}
+//End  of the Contact Section
+

@@ -1,0 +1,48 @@
+.navtoggle{
+   background-color:  $navtoggle !important;
+}
+.get{
+    font-size: 10px !important;
+}
+.nav-link:hover{
+    color: $nav-linkhover !important;
+}
+.navss:hover {
+    color: $navsshover !important;
+}
+.dropdown-item:hover{
+    color: $dropdown-itemhover !important;
+}
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background:  $nav;
+    transition: 0.4s
+}
+.nav-item:hover::after {
+    width: 100%
+}
+.navss::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background:  $navss;
+    transition: 0.4s
+}
+.navss:hover::after {
+    width: 100%
+}
+.dropdown-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background:  $nav;
+    transition: 0.4s
+}
+.dropdown-item:hover::after {
+    width: 100%;
+}
